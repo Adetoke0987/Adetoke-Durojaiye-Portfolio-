@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fsec{
+   background-color: black;
+}
+.adetee{
+    display: flex;
+    justify-content:space-around
+}
+#aa{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 320px;
+    margin-left: 300px;
+    color: orange;
+    margin-top: 100px;
+}
+.second{
+    margin-top: 50px;
+    margin-right: 300px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700px;
+    font-size: xx-large;
+    color: orange;
+}
+#passport img{
+    margin-top: 50px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    height: 70px;
+    margin-top: 90px;
+    /* overflow: hidden; */
+    position: sticky;
+    top: 0; 
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-right: 50px;
+    padding-top: 25px;
+    transition: margin-top 0.3ms;
+}
+.info a{
+    text-decoration: none;
+}
+a i{
+    text-decoration: none;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 600px;
+    margin-top: -100px;
+    width: 200px;
+    
+}
+#AB{
+    color: chocolate;
+    border-bottom: 5px solid cornsilk;
+    display: inline-block;
+    margin-left: 565px;
+    margin-top: 90px;
+   
+}
+
+.aboutme{
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    
+} 
+#dp{
+    
+    margin-left: 200px;
+}
+#words{
+    color: rgb(242, 176, 152);
+    max-width: 500px;
+    margin-right: 200px;
+    margin-top: 70px;
+}
+.intro a{
+    color: orange;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    margin-left: 200px;
+    margin-top: 50px;
+    color: chocolate;
+    font-size: 100px;
+}
+.skills p{
+    font-size: 20px;
+}
+.skills i {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.skills > div {
+    margin: 10px;
+    margin-right: 150px;
+    font-size: 15px;
+}
+.html {width: 90%; background-color: orange; color: black; font-weight: 700;}
+.css {width: 80%; background-color: orange; color: black; font-weight: 700;}
+.js {width: 65%; background-color: orange; color: black; font-weight: 700;}
+.php {width: 60%; background-color: orange; color: black; font-weight: 700;}
+
+
+
+
+
+
+
+footer{
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 15px;
+    background-color: orange;
+    height: 50px;
+}
