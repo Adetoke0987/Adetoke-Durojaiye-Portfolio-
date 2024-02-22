@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
 </head>
     
     <link rel="stylesheet" href="index.css">
@@ -35,24 +36,31 @@
             
         </nav>
 
-        <div class="first" id="nav bar" class="fixed">
+        <div class="first" id="navbar">
             <h1 id="tee"><a href="#"><img src="./assests/logo.png" alt="" width="100px"></a></h1>
-            <ul class="info">
+            <ul class="info" id="dropdowncontent">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" id="bar"></i>
         </div>
        
         <div class="aboutme">
             <div>
-                <img id="dp" src="./assests/wlogo.png" alt="" width="200px">
+                <img id="dp" src="./assests/wlogo.png" alt="" width="400px">
             </div>
             <div>
-                <h1 id="AB">About me</h1>
+                <h1 id="AB">About me
+                    <h1 id="name">
+                    <strong>Name:</strong> Adetoke Durojaiye
+                    <br>
+                    <strong>Profession:</strong> Software Engineer
+                    </h1>
+                </h1>
+
                 <p id="words">I am a results-oriented and driven individual with a proven
                     track record in software development, having successfully 
                     implemented responsive web designs using HTML, CSS, and JavaScript. 
@@ -63,58 +71,106 @@
                     My goal is to leverage my skills in software development to contribute 
                     to innovative projects and bring an organization's digital vision to fruition.
                 </p>
+                <button class="hireme">Hire me</button>
             </div>
         </div>
         
         <div class="skills">
-            <h1 style="color: chocolate;">Skills</h1>
+            <h1 id="skill">Skills</h1>
             <div id="state">
                 <div id="snall">
                     <i class="fab fa-html5"></i>
                     <p>HTML</p>
-                    <div class="html">98%</div>
+                    <div class="container">
+                        <div class="html">95%</div>
+                    </div>
                 </div>
 
                 <div id="snall">
                     <i class="fab fa-css3-alt"></i>
                     <p>CSS</p>
-                    <div class="css">80%</div>
+                    <div class="container">
+                        <div class="css">90%</div>
+                    </div>
                 </div>
 
                 <div id="snall">
                     <i class="fab fa-js"></i>
                     <p>JavaScript</p>
-                    <div class="js">65%</div>
+                    <div class="container">
+                        <div class="js">75%</div>
+                    </div>
                 </div>
 
                 <div id="snall">
                     <i class="fab fa-react"></i>
                     <p>TypeScript</p>
-                    <div class="php">60%</div>
+                    <div class="container">
+                        <div class="php">70%</div>
+                    </div>
                 </div>
 
-                <div id="snall">
+                <!-- <div id="snall">
                     <i class="fab fa-php"></i>
                     <p>PHP</p>
                     <div class="php">60%</div>
-                </div>
+                </div> -->
             </div>
         </div>   
-        <h1 style="color: orange;">Job Experiences</h1>
-        <div></div>
-
-        <h1 style="color: orange;">My Services</h1>
-        <div></div>
-
-        <h1 style="color: orange;">Portfolio</h1>
-        <div></div>
-
-        <div>
-
+        <div class="Experience">
+            <h1 class="job">Job Experience</h1>
+            <div class="jobgrid">
+                <div class="allexp">
+                    <h3>Jan 2023 - Till date</h3>
+                    <h1>The Ephraim School, Lagos.</h1>
+                    <h2><i>Educator</i></h2>
+                    <p>Dedicated and experienced educator transitioning into the tech industry, bringing 
+                       strong communication, organizational, and problem-solving skills. Excited to 
+                       contribute to tech projects and collaborate with diverse teams.
+                    </p>
+                </div>
+                <div class="allexp">
+                    <h3>November 2023 - Till date</h3>
+                    <h1>SAIL Innovation Lab, Lagos.</h1>
+                    <h2><i>Software Engineer(Intern)</i></h2>
+                    <p>Dedicated and experienced educator transitioning into the tech industry, bringing 
+                       strong communication, organizational, and problem-solving skills. Excited to 
+                       contribute to tech projects and collaborate with diverse teams.
+                    </p>
+                </div>
+                <div class="allexp">
+                    <h3>November 2023 - Till date</h3>
+                    <h1>SAIL Innovation Lab, Lagos.</h1>
+                    <h2><i>Web Development(Intern)</i></h2>
+                    <p>Collaborated on Rock, Paper, Scissors game. Contributed to key features,
+                       including avatar selection and dark mode toggle. Implemented game logic 
+                       for dynamic outcomes and smooth transitions, enhancing user experience.
+                    </p>
+                </div>
+                <div class="allexp">
+                    <h3>June, 2023 - September, 2024</h3>
+                    <h1>Project</h1>
+                    <h2><i>Data Analyst</i></h2>
+                    <p>
+                        Analyzed Netflix movie trends, focusing on shorter durations and viewer
+                        engagement using Python. Identified key insights, optimizing content for a
+                        15% increase in viewer satisfaction. Automated reporting, saving 10 hours weekly.
+                    </p>
+                </div>
+            </div>
         </div>
-
-        <h1 style="color: orange;">Contact Me</h1>
-        <div></div>
+        <div>
+            <h1 class="job">Contact Me</h1>
+            <p></p>
+            <div class="cicon">
+                <p><i class="fa fa-user"></i>Adetoke Durojaiye</p>
+                <p><i class="fa fa-tag"></i>Software Engineer</p>
+                <p><i class="fa fa-map-marker"></i>Lagos, Nigeria</p>
+                <p><i class="fa fa-envelope"></i><a href="mailto:adetokedurojaiye@gmail.com">adetokedurojaiye@gmail.com</a></p>
+                <p><i class="fa fa-phone"></i><a href="tel:+2348120655436">+234-812-065-5436</a></p>
+            </div>
+        </div>
+        
 
         <footer>
             © Copyright Adetoke Durojaiye. All Rights Reserved

@@ -39,7 +39,7 @@
     background-color: orange;
     height: 70px;
     margin-top: 90px;
-     overflow: hidden; 
+    overflow: hidden; 
     position: sticky;
     top: 0; 
     width: 100%;
@@ -77,11 +77,14 @@ a i{
     color: orange;
 }
 #AB{
-    color: chocolate;
+    color: orange;
     font-size: 40px;
+    margin-top: 30%;
 
 }
-
+#name{
+    color: orange;
+}
 .fa-bars{
     display: none;
 }
@@ -94,17 +97,28 @@ a i{
     padding: 0;
     margin: 0;
     
+    
 } 
 #dp{
-    
-    margin-left: 80%;
+    margin-left: 30%;
 }
 #words{
-    color: rgb(242, 176, 152);
-    max-width: 500px;
+    color: orange;
+    max-width: 550px;
     margin-right: 200px;
     margin-top: 20px;
     text-align: justify;
+    font-size: 25px;
+}
+.hireme{
+    border: 2px solid orange;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+    margin-top: 15px;
+
 }
 .intro{
     display: flex   ;
@@ -115,8 +129,14 @@ a i{
     justify-content: center;
     align-items: center;
 }
+#skill{
+    color: orange;
+    text-align: left;
+    margin-left: 7%;
+    font-size: 50px;
+}
 .skills{
-    color: chocolate;
+    color: orange;
     text-align: center;
     height: 90vh;
     overflow: hidden;
@@ -126,8 +146,13 @@ a i{
     justify-content: center;
     align-items: center;
     height: 60vh;
-    width: 100%;
+    width: 85%;
+    margin-left: 6%;
     
+}
+.container{
+    width: 100%;
+    background-color: rgb(223, 198, 169);
 }
 #snall{
     height: 30vh;
@@ -157,8 +182,56 @@ a i{
 .js {width: 65%; background-color: orange; color: black; font-weight: 700;}
 .php {width: 60%; background-color: orange; color: black; font-weight: 700;}
 
+.job{
+    color: orange;
+    text-align: left;
+    margin-left: 7%;
+    font-size: 50px;
+}
+.Experience{
+    color: orange;
+    text-align: center;
+    height: 90vh;
+}
+.jobgrid{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-left: 5.5%;
+}
+.allexp{
+    height: 30vh;
+    width: 80%;
+    margin: 20px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 5%;
 
-
+}
+.allexp p {
+    font-size: 20px;
+}
+.cicon{
+    color: orange;
+    margin-left: 7%;
+}
+.cicon p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.cicon a{
+    text-decoration: none;
+    color: orange;
+}
+.cicon i{
+    margin-right: 10px;
+}
 
 
 
@@ -169,13 +242,18 @@ footer{
     margin-top: 60px;
     padding-top: 15px;
     background-color: orange;
-    height: 50px;
+    height: 5vh;
+    font-size: 12px;
 } 
 
 
 
 
 @media only screen and (max-width: 440px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
     .intro{
         height: 100vh;
     }
@@ -194,7 +272,34 @@ footer{
         display: none;
     }
     #words{
-        margin: 0;
-        padding: 20px;
+        margin: 0   ;  
     }
-}
+    #AB{
+        display: flex;
+        justify-content: center     ;
+    }
+    .aboutme{ 
+        height: 50vh    ; 
+    }
+    #state{
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
+    #snall{
+        width: 80%;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center; 
+    }
+    .container{
+        width: 100%;
+        background-color: bisque;
+    }
+    
+    }
+    
+    
+    
+    
