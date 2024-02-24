@@ -348,6 +348,9 @@ footer i{
     .jobgrid{
         display: inline;
     }
+    .allexp{
+        height: 250px;
+    }
     .allexp h3,.allexp h1,.allexp h2{
        font-size: 20px;
     }
