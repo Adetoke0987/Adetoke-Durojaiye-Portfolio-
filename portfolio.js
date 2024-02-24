@@ -1,5 +1,5 @@
 let roles = document.getElementById("rolecontainer");
-let jobRoles = ["Full Stack Developer", "Software Engineer", "Web Developer"];
+let jobRoles = ["Software Engineer", "Full Stack Developer", "Web Developer"];
 let index = 0;
 let charIndex = 0;
 
@@ -24,4 +24,8 @@ function displayJobRoles() {
 displayJobRoles();
 
 setInterval(displayJobRoles, 150);
+
+document.getElementById('bar').addEventListener('click', function () {
+    document.querySelector('.info').classList.toggle('active');
+});
 
