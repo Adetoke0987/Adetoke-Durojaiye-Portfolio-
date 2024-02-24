@@ -201,9 +201,9 @@ a i{
     margin-left: 5.5%;
 }
 .allexp{
-    height: 30vh;
+    height: auto;
     width: 80%;
-    margin: 20px;
+    margin: 5vw;
     border: 1px solid orange;
     border-radius: 20px;
     display: flex;
@@ -211,6 +211,7 @@ a i{
     justify-content: center;
     text-align: left;
     padding: 5%;
+    margin-left: 3.5%;
 
 }
 .allexp p {
@@ -347,6 +348,7 @@ footer i{
     }
     .jobgrid{
         display: inline;
+        grid-template-columns: auto;
     }
     .allexp{
         height: 30vh;
@@ -354,6 +356,12 @@ footer i{
     .allexp h3,.allexp h1,.allexp h2{
        font-size: 20px;
     }
+    .allexp h4, .allexp h2, .allexp h3, .allexp p {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; 
+    }
+    
     .allexp p{
         text-align: justify;
     }
