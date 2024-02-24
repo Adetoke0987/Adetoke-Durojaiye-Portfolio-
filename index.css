@@ -211,7 +211,7 @@ a i{
     justify-content: center;
     text-align: left;
     padding: 5%;
-    margin-left: 3.5%;
+    /* margin-left: 3.5%; */
 
 }
 .allexp p {
@@ -357,9 +357,9 @@ footer i{
        font-size: 20px;
     }
     .allexp h4, .allexp h2, .allexp h3, .allexp p {
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis; 
+        overflow:scroll;
+        width: 95%;
+        height: 100%;
     }
     
     .allexp p{
