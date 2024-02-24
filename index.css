@@ -348,6 +348,12 @@ footer i{
     .jobgrid{
         display: inline;
     }
+    .allexp h3,.allexp h1,.allexp h2{
+       font-size: 20px;
+    }
+    .allexp p{
+        text-align: justify;
+    }
     .ref i{
         margin-top: 40%;
     }
