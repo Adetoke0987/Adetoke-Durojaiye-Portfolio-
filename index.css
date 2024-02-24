@@ -349,7 +349,7 @@ footer i{
         display: inline;
     }
     .allexp{
-        height: 250px;
+        height: 30vh;
     }
     .allexp h3,.allexp h1,.allexp h2{
        font-size: 20px;
