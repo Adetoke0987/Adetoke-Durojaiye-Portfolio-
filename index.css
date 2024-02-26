@@ -4,20 +4,14 @@
     padding: 0;
 }
 #fsec{
-   background-color: black;
+   background-color: gainsboro;
 }
 .intro{
+    /* color: gainsboro; */
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-}
-#aa{
-    font-family: cursive;
-    font-weight: bolder;
-    font-size: 500px;
-    color: orange;
-    margin-right: 30px;
 }
 .second{
     text-align: center;
@@ -26,15 +20,19 @@
     font-size: 20px;
     color: orange;
 }
+.second button{
+    width: 150px;
+    height: 30px;
+}
 #passport img{
     margin-top: 50px;
 }
 .first{
     display: flex;
     justify-content: space-between;
-    background-color: orange;
+    background-color: gainsboro;
     height: 70px;
-    margin-top: 90px;
+    /* margin-top: 90px; */
     overflow: hidden; 
     position: sticky;
     top: 0; 
